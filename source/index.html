@@ -8,6 +8,65 @@
     <link href="css/style.min.css" rel="stylesheet">
 </head>
 <body>
-<h1>привет</h1>
+<header class="page-header container">
+    <nav class="main-nav">
+        <div class="main-nav__wrapper">
+            <div class="main-nav__language">
+                <a class="main-nav__language-link" href="">EN</a>
+                <span class="main-nav__language-slash">/</span>
+                <a class="main-nav__language-link main-nav__language-link--active" href="">RU</a>
+            </div>
+            <ul class="main-nav__about about">
+                <li class="about__item"><a href="tel:+7879222-63-10">+7 (87922) 2-63-10</a></li>
+                <li class="about__item"><a href="">О компании</a></li>
+                <li class="about__item"><a href="">Рекламодателям</a></li>
+                <li class="about__item"><a href="">База знаний</a></li>
+                <li class="about__item"><a href="">Контакты</a></li>
+            </ul>
+            <div class="main-nav__user-navigation">
+                <a class="main-nav__login-link" href="">Вход</a>
+                <a class="main-nav__login-link" href="">Регистрация</a>
+            </div>
+        </div>
+        <ul class="main-nav__list-navigation list">
+            <li>
+                <a class="list__link" href=""><img class="list__item-img" src="img/logo.svg" width="104" height="40" alt="Логотип Transhub">
+                </a>
+            </li>
+            <li><a class="list__link" href="">Найти перевозчика</a></li>
+            <li><a class="list__link list__link--search" href="">Поиск груза</a></li>
+            <li><a class="list__link list__link--carrier" href="">Перевозчики</a></li>
+            <li><a class="list__link list__link--cargo" href="">Грузоотправители</a></li>
+            <li><a class="list__link list__link--market" href="">Покупка и аренда техники</a></li>
+            <li><a class="list__link list__link--place" href="">Разместить груз</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="page-main container">
+    <div class="page-main__wrapper">
+        <img class="page-main__logo" src="img/transhub-24.svg" width="900" height="80" alt="Логотип Transhub">
+        <p class="page-main__paragraph">Наша цель — свести контакты грузоперевозчиков и грузовладельцев
+            в одном месте, сделав их максимально удобными</p>
+        <a class="page-main__button" href="">Найти перевозчика</a>
+    </div>
+    <section class="login">
+        <h2 class="login__title">Авторизуйтесь, в личный кабинет грузоотправителя</h2>
+        <div class="login__wrapper">
+            <div class="login__example">
+                <img class="login__img" src="img/screen.png" width="756" height="334" alt="Экран пользователя, личный кабинет">
+                <p class="login-paragraph">Получите удобный инструмент размещения заявок на перевозку грузов и их отслеживания</p>
+            </div>
+            <form class="login__form" action="#">
+                <label for="email">Email или Номер телефона</label>
+                <input type="text" name="email" id="email" required="">
+                <label for="password">Пароль</label>
+                <input type="password" name="password" id="password" required="">
+                <button class="login__button">Регистрация</button>
+                <button class="login__button login__button--enter">Вход</button>
+                <a class="login__link" href="">Забыли пароль?</a>
+            </form>
+        </div>
+    </section>
+</main>
 </body>
 </html>
