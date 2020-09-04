@@ -62,3 +62,43 @@
     color: @white-font;
   }
 }
+
+.main-nav--onscroll {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+
+  .main-nav__wrapper {
+    &::after {
+      background-color: #d0d5d9;
+    }
+  }
+
+  .main-nav__language-link, .main-nav__language-slash, .main-nav__login-link, .about__item {
+    color: @scroll-menu-color;
+
+    &:hover {
+      color: @blue-font;
+    }
+  }
+
+  .main-nav__language-link--active {
+    color: @blue-font;
+  }
+
+  .list__link {
+    color: @dark-font-color;
+
+    &:hover {
+      color: @blue-font;
+    }
+  }
+
+  .list__img {
+    display: none;
+
+    &--onscroll {
+      display: block;
+    }
+  }
+}
