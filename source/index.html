@@ -1,72 +1,107 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="format-detection" content="telephone=no">
-    <title>Тестовое задание 5 Углов</title>
-    <link href="css/style.min.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <title>Тестовое задание 5 Углов</title>
+  <link href="css/style.min.css" rel="stylesheet">
 </head>
 <body>
-<header class="page-header container">
-    <nav class="main-nav">
-        <div class="main-nav__wrapper">
-            <div class="main-nav__language">
-                <a class="main-nav__language-link" href="">EN</a>
-                <span class="main-nav__language-slash">/</span>
-                <a class="main-nav__language-link main-nav__language-link--active" href="">RU</a>
-            </div>
-            <ul class="main-nav__about about">
-                <li class="about__item"><a href="tel:+7879222-63-10">+7 (87922) 2-63-10</a></li>
-                <li class="about__item"><a href="">О компании</a></li>
-                <li class="about__item"><a href="">Рекламодателям</a></li>
-                <li class="about__item"><a href="">База знаний</a></li>
-                <li class="about__item"><a href="">Контакты</a></li>
-            </ul>
-            <div class="main-nav__user-navigation">
-                <a class="main-nav__login-link" href="">Вход</a>
-                <a class="main-nav__login-link" href="">Регистрация</a>
-            </div>
-        </div>
-        <ul class="main-nav__list-navigation list">
-            <li>
-                <a class="list__link" href=""><img class="list__item-img" src="img/logo.svg" width="104" height="40" alt="Логотип Transhub">
-                </a>
-            </li>
-            <li><a class="list__link" href="">Найти перевозчика</a></li>
-            <li><a class="list__link list__link--search" href="">Поиск груза</a></li>
-            <li><a class="list__link list__link--carrier" href="">Перевозчики</a></li>
-            <li><a class="list__link list__link--cargo" href="">Грузоотправители</a></li>
-            <li><a class="list__link list__link--market" href="">Покупка и аренда техники</a></li>
-            <li><a class="list__link list__link--place" href="">Разместить груз</a></li>
-        </ul>
-    </nav>
+<header class="page-header">
+  <nav class="main-nav">
+    <div class="main-nav__wrapper">
+      <div class="main-nav__language">
+        <a class="main-nav__language-link" href="">EN</a>
+        <span class="main-nav__language-slash">/</span>
+        <a class="main-nav__language-link main-nav__language-link--active" href="">RU</a>
+      </div>
+      <ul class="main-nav__about about">
+        <li class="about__item"><a href="tel:+7879222-63-10">+7 (87922) 2-63-10</a></li>
+        <li class="about__item"><a href="">О компании</a></li>
+        <li class="about__item"><a href="">Рекламодателям</a></li>
+        <li class="about__item"><a href="">База знаний</a></li>
+        <li class="about__item"><a href="">Контакты</a></li>
+      </ul>
+      <div class="main-nav__user-navigation">
+        <a class="main-nav__login-link" href="">Вход</a>
+        <a class="main-nav__login-link" href="">Регистрация</a>
+      </div>
+    </div>
+    <ul class="main-nav__list-navigation list">
+      <li>
+        <a class="list__link" href=""><img class="list__item-img" src="img/logo.svg" width="104" height="40"
+                                           alt="Логотип Transhub">
+        </a>
+      </li>
+      <li><a class="list__link" href="">Найти перевозчика</a></li>
+      <li><a class="list__link list__link--search" href="">Поиск груза</a></li>
+      <li><a class="list__link list__link--carrier" href="">Перевозчики</a></li>
+      <li><a class="list__link list__link--cargo" href="">Грузоотправители</a></li>
+      <li><a class="list__link list__link--market" href="">Покупка и аренда техники</a></li>
+      <li><a class="list__link list__link--place" href="">Разместить груз</a></li>
+    </ul>
+  </nav>
 </header>
 <main class="page-main container">
-    <div class="page-main__wrapper">
-        <img class="page-main__logo" src="img/transhub-24.svg" width="900" height="80" alt="Логотип Transhub">
-        <p class="page-main__paragraph">Наша цель — свести контакты грузоперевозчиков и грузовладельцев
-            в одном месте, сделав их максимально удобными</p>
-        <a class="page-main__button" href="">Найти перевозчика</a>
-    </div>
-    <section class="login">
-        <h2 class="login__title">Авторизуйтесь, в личный кабинет грузоотправителя</h2>
-        <div class="login__wrapper">
-            <div class="login__example">
-                <img class="login__img" src="img/screen.png" width="756" height="334" alt="Экран пользователя, личный кабинет">
-                <p class="login-paragraph">Получите удобный инструмент размещения заявок на перевозку грузов и их отслеживания</p>
-            </div>
-            <form class="login__form" action="#">
-                <label for="email">Email или Номер телефона</label>
-                <input type="text" name="email" id="email" required="">
-                <label for="password">Пароль</label>
-                <input type="password" name="password" id="password" required="">
-                <button class="login__button">Регистрация</button>
-                <button class="login__button login__button--enter">Вход</button>
-                <a class="login__link" href="">Забыли пароль?</a>
-            </form>
+  <div class="page-main__wrapper">
+    <img class="page-main__logo" src="img/transhub-24.svg" width="900" height="80" alt="Логотип Transhub">
+    <p class="page-main__paragraph">Наша цель — свести контакты грузоперевозчиков и грузовладельцев
+      в одном месте, сделав их максимально удобными</p>
+    <a class="page-main__button" href="">Найти перевозчика</a>
+  </div>
+  <section class="login">
+    <div class="login__block-wrapper">
+      <h2 class="login__title">Авторизуйтесь, в личный кабинет грузоотправителя</h2>
+      <button class="login__button-slider login__button-slider--back" type="button"><span
+        class="visually-hidden">Назад</span>
+        <svg width="48" height="88" viewBox="0 0 48 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M46 85.9999L4 43.9999L46 1.99988" stroke="#D0D5D9" stroke-width="5"/>
+        </svg>
+      </button>
+      <button class="login__button-slider login__button-slider--next" type="button"><span
+        class="visually-hidden">Вперед</span>
+        <svg width="48" height="88" viewBox="0 0 48 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1.99939 1.99988L43.9994 43.9999L1.99939 85.9999" stroke="#D0D5D9" stroke-width="5"/>
+        </svg>
+      </button>
+      <div class="login__wrapper">
+        <div class="login__example">
+          <img class="login__img" src="img/screen.png" width="756" height="334"
+               alt="Экран пользователя, личный кабинет">
+          <p class="login-paragraph">Получите удобный инструмент размещения заявок на перевозку грузов и их
+            отслеживания</p>
         </div>
-    </section>
+        <form class="login__form" action="" method="post">
+          <label class="login__field-wrapper">
+            <span class="login__label">Email или Номер телефона</span>
+            <input class="login__input" type="tel" pattern="[0-9]{1}[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" required="">
+          </label>
+          <label class="login__field-wrapper">
+            <span class="login__label">Пароль</span>
+            <input class="login__input" type="password" name="password" required="">
+          </label>
+          <button class="login__button" type="button">Регистрация</button>
+          <button class="login__button login__button--enter" type="submit">Вход</button>
+          <a class="login__link" href="">Забыли пароль?</a>
+        </form>
+      </div>
+    </div>
+    <div class="login__radio-wrapper">
+      <p class="login__radio-buttons">
+        <input type="radio" class="login__radio-slider" id="first-card" name="slider" checked="checked">
+        <label for="first-card" class="login__buttons-label"></label>
+      </p>
+      <p class="login__radio-buttons">
+        <input type="radio" class="login__radio-slider" id="second-card" name="slider">
+        <label for="second-card" class="login__buttons-label"></label>
+      </p>
+      <p class="login__radio-buttons">
+        <input type="radio" class="login__radio-slider" id="third-card" name="slider">
+        <label for="third-card" class="login__buttons-label"></label>
+      </p>
+    </div>
+  </section>
 </main>
 </body>
 </html>
