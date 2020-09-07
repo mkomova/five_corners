@@ -2,7 +2,7 @@
 1. [Intro](#intro)
 2. [Task 1](#task-1)
 
-Установка - npm i
+Установка - npm i / 
 Запуск локального сервера - npm start
 
 **[⬆ Back to Index](#index)**
